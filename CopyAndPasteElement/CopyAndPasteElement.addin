@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CopyAndPasteElement</Text>
+    <Description>Some description for CopyAndPasteElement</Description>
+    <Assembly>CopyAndPasteElement.dll</Assembly>
+    <FullClassName>CopyAndPasteElement.Command</FullClassName>
+    <ClientId>8b10bf23-f0be-4914-966b-d80be53174d4</ClientId>
+    <VendorId>com.kawasaki.katsumi</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CopyAndPasteElement</Name>
+    <Assembly>CopyAndPasteElement.dll</Assembly>
+    <FullClassName>CopyAndPasteElement.App</FullClassName>
+    <ClientId>1b4e6446-a6d9-468b-9d3e-5ac4f951b8e5</ClientId>
+    <VendorId>com.kawasaki.katsumi</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+</RevitAddIns>
